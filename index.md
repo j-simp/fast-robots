@@ -14,4 +14,4 @@ layout: default
 <div style="clear: both;"></div>
 
 ## Labs
-- [Lab 1: First Experiment](docs/pages/lab1.md)
+- [Lab 1: The Artemis Board and Bluetooth](docs/pages/lab1.md)

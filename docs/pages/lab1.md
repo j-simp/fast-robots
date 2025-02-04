@@ -1,9 +1,17 @@
 ---
-title: "Lab 1: First Experiment"
+title: "Lab 1: The Artemis Board and Bluetooth"
+description: ""
 layout: default
 ---
+# Part 1a
 
-# Lab 1: The Artemis Board and Bluetooth
+## Prelab
+
+## Lab Tasks
+
+## Reflection
+
+# Part 1b
 
 ## Prelab
 
