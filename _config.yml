@@ -4,9 +4,3 @@ plugins:
 title: "MAE4910/ECE4160"
 description: "Documenting my Fast Robots journey!"
 theme: jekyll-theme-cayman
-include: ["docs"]
-defaults:
-  - scope:
-      path: "docs"
-    values:
-      permalink: "/"
