@@ -170,7 +170,7 @@ To improve data sampling, I first made sure to remove any print and debug statem
 
 I then made the following function to test if I could send 5 seconds of time data:
 
-<img src="../images/lab2/eff_code.png style="max-width: 60%; height: auto;">
+<img src="../images/lab2/eff_code.png" style="max-width: 60%; height: auto;">
 
 I removed the outer while loop from the getAGMT method to speed up data collection, too.
 
