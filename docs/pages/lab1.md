@@ -11,28 +11,28 @@ Before this lab, I updated my Arduino IDE and installed the CH340 driver. Additi
 ## Lab Tasks
 ### 1. Blink Test
 I uploaded example code to make the LED on the Artemis blink.
-<div style="text-align: center;">
+<div style="text-align: left;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iHwJw17ag6U" 
     frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### 2. Serial Monitor Test
 I uploaded example code that enables me to type a message through the Serial Monitor to the Artemis, and the Artemis responds by printing my message back to me.
-<div style="text-align: center;">
+<div style="text-align: left;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4grV-Z61xCI" 
     frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### 3. Temperature Sensor Test
 I uploaded example code that allows the Artemis to print temperature readings. When I put my finger on the board, the raw temperature (output column 2) increases from 32000 to 33000.
-<div style="text-align: center;">
+<div style="text-align: left;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xy1ozE7AGxQ" 
     frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### 4. Microphone Test 
 I uploaded example code that allows the Artemis to print microphone frequency readings. When I blow on the board, the frequency readings spike to the 1000s.
-<div style="text-align: center;">
+<div style="text-align: left;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qpQ__TOZpig" 
     frameborder="0" allowfullscreen></iframe>
 </div>
