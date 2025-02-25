@@ -1,6 +1,6 @@
 ---
 title: "Lab 1: The Artemis Board and Bluetooth"
-description: ""
+description: '"The purpose of Lab 1A is for you to setup and become familiar with the Arduino IDE and the Artemis board. After this lab, you should be comfortable programming your board, using the board LED, reading/writing serial messages over USB, and using the onboard temperature sensor and Pulse Density Microphone. The purpose of Lab 1B is to establish communication between your computer and the Artemis board through the Bluetooth stack. The computer will send Python commands from a Jupyter notebook to an Artemis board running the Arduino programming language. We will also establish a framework for sending data from the Artemis to the computer via Bluetooth that will be useful in future labs."'
 layout: default
 ---
 # Part 1a

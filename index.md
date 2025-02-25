@@ -16,3 +16,4 @@ layout: default
 ## Labs
 - [Lab 1: The Artemis Board and Bluetooth](docs/pages/lab1.md)
 - [Lab 2: IMU](docs/pages/lab2.md)
+- [Lab 3: Time of Flight Sensors](docs/pages/lab3.md)

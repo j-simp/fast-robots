@@ -1,6 +1,6 @@
 ---
 title: "Lab 2: IMU"
-description: " "
+description: '"The purpose of this lab is to add the IMU to your robot, start running the Artemis+sensors from a battery, and record a stunt on your RC robot."'
 layout: default
 ---
 <style>
@@ -18,15 +18,15 @@ layout: default
 
 <style>
   .image-container {
-    text-align: center; /* Centers inline elements */
+    text-align: center;
   }
 
   .image-container img {
     display: block;
-    margin: 0 auto; /* Centers the image */
-    width: 70%; /* Shrinks the image to 50% of its original/container width */
-    max-width: 450px; /* Limits the maximum size */
-    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto; 
+    width: 70%; 
+    max-width: 450px;
+    height: auto; 
   }
 </style>
 
