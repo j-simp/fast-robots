@@ -67,10 +67,35 @@ I first use the given example I2C code to ensure that I wired and soldered my To
 
 From the output, I see that the address that was detected from my ToF sensor is 0x29, which does not match the ToF sensor's built-in address (0x52). However, since the LSB is solely used for data direction, it is omitted via a right shift, which gives the address we see, 0x29. Therefore, the output is expected.
 
+There are three modes I can use for my ToF sensors: short (1.3m), medium (3m), or long (4m). I believe that, for now, short will be the best mode because it is least sensitive to ambient light and it has the shortest timing budget (20ms). Additionally, I cannot think of many use cases for sensing objects farther than a meter away, but if the need for a longer range mode arises I can easily change it in the future.
+
+
+To test the ToF sensor, i taped it to my computer and pointed it at a wall.
+
+<div class="image-container">
+  <img src="../images/lab3/setup.jpg" alt="Centered Image">
+</div>
+
+Below is my data for testing the sensor at different ranges in short mode:
+
+
+<div class="image-container">
+  <img src="../images/lab3/output.png" alt="Centered Image">
+</div>
+
 
 ### 3. Connect and Use Both ToF Sensors Simultaneously
 
+I took code from my previous step and combine it with the proper setup for using 2 ToF sensors, disabling one so that I can change the address of the other.
+
+<div class="grid-container">
+  <img src="../images/lab3/4_1.png" alt="Image 1">
+  <img src="../images/lab3/4_2.png" alt="Image 2">
+</div>
+
 ### 4. Connect and Use Both ToF Sensors and IMU Simultaneously
+
+I was unable to complete this part on time.
 
 ## Reflection
 
