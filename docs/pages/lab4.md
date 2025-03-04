@@ -35,7 +35,7 @@ layout: default
 Before this lab, I mapped out how I want my motor drivers to be connected to my Artemis:
 
 <div class="image-container">
-  <img src="../images/lab4/Schema.png" alt="Centered Image">
+  <img src="../images/lab4/Schema.jpeg" alt="Centered Image">
 </div>
 
 For controlling my motor drivers, I decided to use pins 0-3 because I want to have that side of the Artemis facing outward for ease of battery connection and Quiic connector connection.
