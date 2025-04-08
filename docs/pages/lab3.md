@@ -103,4 +103,4 @@ From this lab, I learned about how the I2C protocol is used to allow communicati
 
 ## Acknowledgements
 
-I referenced past students [Mikayla Lahr's](https://mikaylalahr.github.io/FastRobotsLabReports/startbootstrap-resume-master/dist/index.html#Lab%203) and [Nila Narayan's](https://mikaylalahr.github.io/FastRobotsLabReports/startbootstrap-resume-master/dist/index.html#Lab%203) code for connecting both ToF sensors at the same time.
+I referenced past students [Mikayla Lahr's](https://mikaylalahr.github.io/FastRobotsLabReports/startbootstrap-resume-master/dist/index.html#Lab%203) and [Nila Narayan's](https://nila-n.github.io/Lab3.html) code for connecting both ToF sensors at the same time.
