@@ -22,3 +22,4 @@ layout: default
 - [Lab 6: Orientation Control](docs/pags/lab6.md)
 - [Lab 7: Kalman Filter](docs/page/lab7.md)
 - [Lab 8: Stunts!](docs/pages/lab8.md)
+- [Lab 9: Mapping](docs/page/lab9.md)
