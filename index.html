@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natural Portfolio</title>
+  <style>
+    :root {
+      --background: #FAF3E0;
+      --text-color: #2C2C2C;
+      --accent-color: #A1866F;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: var(--background);
+      color: var(--text-color);
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      height: 100vh;
+    }
+
+    .sidebar {
+      background-color: var(--accent-color);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: white;
+    }
+
+    .sidebar h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .sidebar p.title {
+      margin: 0.5rem 0 2rem;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    .nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .nav li {
+      margin-bottom: 1.5rem;
+      width: 100%;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Main content */
+    .main {
+      overflow-y: auto;
+      padding: 3rem 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      max-width: 800px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    h3 {
+      margin: 1rem 0 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h1>Joshua Simpson</h1>
+    <p class="title">CS & Robotics @ Cornell University</p>
+    <ul class="nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a senior at Cornell University studying Computer Science and Robotics. I am passionate about using AI and software engineering to build solutions, especially ones for public benefit.</p>
+
+      <p>Currently, I am building an AI-powered journaling app startup, Scribe AI, where I am leading the development of the backend. Previously, I worked as a Software Development Engineer intern at Amazon, where I created a full-stack application to assist with their asset management system.</p>
+        
+      <p>When not working, you’ll most likely find me outside playing sports, or inside gaming. I also love to read and cook.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div>
+        <h3>Co-Founder, Backend Lead @ Scribe AI (Startup)</h3>
+        <p>As Co-Founder and Backend Lead at Scribe AI, I’ve been leading 
+          the development and integration of the backend for an AI-powered
+           journaling application. I designed and maintained a SQLite database 
+           using SQLAlchemy to store user information, and implemented Flask 
+           routes to handle HTTP requests between the frontend and backend. 
+           Additionally, I integrated WebSockets to enable real-time audio 
+           transfer between the website and the AI agent.</p>
+      </div>
+      <div>
+        <h3>Software Development Engineer Intern @ Amazon</h3>
+        <p>During my time as a Software Development Engineer Intern at Amazon, 
+          I developed and deployed a full-stack application to streamline manual 
+          asset creation, saving my team hours of work each week. I built the 
+          frontend using HTML, CSS, TypeScript, and React, and implemented the 
+          backend using Java, DynamoDB, and GraphQL to manage data and connect to 
+          the frontend. I also created detailed design documents and presented them 
+          to stakeholders to guide the implementation process.</p>
+      </div>
+      <div>
+        <h3>Advisory & Governance Board Member @ Cornell Blockchain</h3>
+        <p>As an Advisory & Governance Board Member of the Cornell Blockchain Club,
+           I conducted market research to support Web3 startup companies in improving
+            their business strategies. I used SQL to query data related to 
+            cryptocurrency prices, liquidity pools, and other key analytics.
+            I also explored practical applications of blockchain technology to
+             identify areas where it could replace or enhance existing systems.</p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div>
+        <h3><a href="https://github.coecis.cornell.edu/cs4701-24fa-projects/AR_Spark_jjs465" target="_blank">BluffBot: AI-Powered Poker Bot</a></h3>
+        <p>For BluffBot, an AI-powered poker bot, I implemented Deep Q-Learning using
+           PyTorch to train an agent capable of playing two-player Texas Hold’em Poker.
+            I leveraged PettingZoo’s poker environment to facilitate training and enable
+             the agent to compete against both human players and other AI agents.
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: jjs465@cornell.edu</p>
+      <p><a href="https://github.com/j-simp" target="_blank">Github</a></p>
+      <p><a href="https://www.linkedin.com/in/jjs465/" target="_blank">LinkedIn</a></p>
+    </section>
+  </main>
+</body>
+</html>
