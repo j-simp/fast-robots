@@ -23,4 +23,4 @@ layout: default
 - [Lab 7: Kalman Filter](docs/page/lab7.md)
 - [Lab 8: Stunts!](docs/pages/lab8.md)
 - [Lab 9: Mapping](docs/page/lab9.md)
-- [Lab 10:](docs/pages/lab10.md)
+- [Lab 10: Bayes Filter](docs/pages/lab10.md)
