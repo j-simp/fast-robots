@@ -4,6 +4,8 @@ description: "Documenting my Fast Robots journey!"
 layout: default
 ---
 
+<base href="/fast-robots/">
+
 # About Me
 
 <div class="bio-container">
