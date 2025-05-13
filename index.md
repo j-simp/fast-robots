@@ -27,3 +27,4 @@ layout: default
 - [Lab 9: Mapping](docs/pages/lab9.md)
 - [Lab 10: Bayes Filter](docs/pages/lab10.md)
 - [Lab 11: Localization on Physical Robot](docs/pages/lab11.md)
+- [Lab 12: Path Planning and Execution](docs/pages/lab12.md)
