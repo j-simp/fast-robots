@@ -1,6 +1,6 @@
 ---
 title: "Grid Localization using Bayes Filter"
-description: '"The purpose of this lab is to implement grid localization using Bayes filter.s"'
+description: '"The purpose of this lab is to implement grid localization using Bayes filter."'
 layout: default
 ---
 
