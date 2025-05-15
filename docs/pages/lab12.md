@@ -32,4 +32,4 @@ And, as a bonus, some of my 'rapid' debugging:
 
 ## Acknowledgements
 
-Thank you Prof. Helbling and all the TAs for an amazing semester!!!
+I collaborated with Kotey Ashie in completing this lab. Thank you Prof. Helbling and all the TAs for an amazing semester!!! 
